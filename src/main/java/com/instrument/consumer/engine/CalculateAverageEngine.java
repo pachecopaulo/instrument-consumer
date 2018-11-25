@@ -19,14 +19,6 @@ public class CalculateAverageEngine extends AbstractEngine {
 		super(instrumentName);
 		sum = BigDecimal.ZERO;
 	}
-	
-	
-//	@Override
-//	protected void consume(Set<InstrumentPriceVO> instrumentPrices) {
-//		double sum = instrumentPrices.stream().filter(i -> getInstrumentName().equals(i.getName()))
-//				.mapToDouble(InstrumentPriceVO::getValue).sum();
-//
-//	}
 
 	/**
 	 * Calculates the average for a given instrument
